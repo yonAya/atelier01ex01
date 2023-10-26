@@ -1,0 +1,42 @@
+.App {
+  background-color: rgb(122, 214, 241);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+fieldset {
+  border: 4px solid rgb(85, 175, 211);
+  padding: 20px;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+legend {
+  text-align: center;
+  background-color: rgb(85, 175, 211);
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(3, 30, 180);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  flex-grow: 1;
+}
+fieldset div {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 33%;
+}
+
+input {
+  flex-grow: 0.5;
+}
